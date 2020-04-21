@@ -35,6 +35,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Balsamiq](https://balsamiq.com/)
     - I used **Balsamiq Wireframes** to design and test the base layout of this project.
 
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
 
 
 
