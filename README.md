@@ -32,8 +32,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Balsamiq](https://balsamiq.com/)
+    - I used **Balsamiq Wireframes** to design and test the base layout of this project.
+
+
 
 
 ## Testing
@@ -71,15 +73,20 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the services and about us sections was copied from the http://www.est-sanchez.com.ar/
 
 ### Media
 - The photos used in this site were obtained from:
 
 https://www.shutterstock.com/
-
+http://www.est-sanchez.com.ar/
 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from:
+
+ https://www.businessaccountants.co.za/
+ http://www.est-sanchez.com.ar/
+ https://www2.deloitte.com/uk/en.html
+ https://www.estudiolutenberg.com.ar/
