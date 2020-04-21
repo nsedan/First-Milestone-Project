@@ -78,15 +78,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Media
 - The photos used in this site were obtained from:
 
-https://www.shutterstock.com/
-http://www.est-sanchez.com.ar/
+    - https://www.shutterstock.com/
+    - http://www.est-sanchez.com.ar/
 
 
 ### Acknowledgements
 
 - I received inspiration for this project from:
 
- https://www.businessaccountants.co.za/
- http://www.est-sanchez.com.ar/
- https://www2.deloitte.com/uk/en.html
- https://www.estudiolutenberg.com.ar/
+    - https://www.businessaccountants.co.za/
+    - http://www.est-sanchez.com.ar/
+    - https://www2.deloitte.com/uk/en.html
+    - https://www.estudiolutenberg.com.ar/
