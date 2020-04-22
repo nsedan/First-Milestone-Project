@@ -7,23 +7,14 @@ body {
     background-color: #fafafa;
     padding: 0;
     margin: 0;
-    line-height: 0;
     color: #212529;
 }
 
 .container-fluid{
     background-color: rgb(190, 190, 190);
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    height: 150px;
-    position: relative;
+    height: 10vw;
 }
 
-.row,.brand{
-    margin: 0;
-    padding: 0;
-}
 
 .col-1, .fa-facebook-square, .fa-linkedin-square {
     font-size: 27px;
@@ -35,7 +26,7 @@ body {
 .col-2 i{
     padding: 0;
     margin: 0;
-    
+    width: 100%;
     font-size: 700%;
     left: 20px;
     top: 5px;
@@ -58,12 +49,9 @@ body {
 
 .bg-navbar-color{
     background-color: rgb(160, 160, 160);
-    position: relative;
 }
 
-.container-fluid-navbar, .bg-navbar-color{
-    height: 90px;
-}
+
 
 .col-2 .navbar{
     padding: 0;
@@ -87,11 +75,6 @@ body {
 
 /******************************NAV BAR***********************************/
 
-.nav{
-    margin-top: 7px;
-    margin-left: 80px;
-}
-
 
 .hvr-push{
     color: #212529;
@@ -101,17 +84,11 @@ body {
     margin-right: 20px;
 }
 
-a.hvr-push:hover{
+.hvr-push:hover{
     color: black;
-    font-weight: bold;
     text-decoration: none;
 }
 
-.row.sticky-nabvar{
-    position: absolute;
-    margin-left: 33%;
-    margin-top: 20px;
-}
 
 
 /******************************LANGUANGE CHANGE***********************************/
