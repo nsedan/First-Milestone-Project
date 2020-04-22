@@ -8,6 +8,7 @@ body {
     padding: 0;
     margin: 0;
     line-height: 0;
+    color: #212529;
 }
 
 .container-fluid{
@@ -52,7 +53,8 @@ body {
 }
 
 
-/******************************NAV BAR***********************************/
+/****************************** LOGO STICKY NAV BAR***********************************/
+
 
 .bg-navbar-color{
     background-color: rgb(160, 160, 160);
@@ -80,6 +82,35 @@ body {
     text-transform: uppercase;
     font-family: "Roboto",sans-serif;
     left: 100px;
+}
+
+
+/******************************NAV BAR***********************************/
+
+.nav{
+    margin-top: 7px;
+    margin-left: 80px;
+}
+
+
+.hvr-push{
+    color: #212529;
+    font-weight: 600;
+    font-size: large;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+a.hvr-push:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.row.sticky-nabvar{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 20px;
 }
 
 
@@ -167,3 +198,5 @@ section{
     text-align: center;
     padding-top: 500px;
 }
+
+
