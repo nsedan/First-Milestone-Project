@@ -18,10 +18,16 @@ body {
     position: relative;
 }
 
-.row{
+.row,.brand{
     margin: 0;
     padding: 0;
+}
 
+.col-1, .fa-facebook-square, .fa-linkedin-square {
+    font-size: 27px;
+    padding: 0;
+    padding-top: 10px;
+   
 }
 
 .col-2{
@@ -31,18 +37,40 @@ body {
 
 .col-2 i{
     font-size: 700%;
-    padding: 0;
     left: 20px;
     top: 5px;
     position: absolute;
-    text-align: left;
 }
 
 .col-2 h1{
     padding: 0;
     left: 130px;
-    top: 12px;
+    top: 14px;
     position: absolute;
     text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Roboto",sans-serif;
 }
 
+
+/******************************MEDIA QUERIES***********************************/
+
+@media screen and (max-width: 720px) {
+    .container-fluid, .desktop-container {
+      height: 0;
+      padding: 0;
+    }
+    .col-1, .col-2, .fa-facebook-square, .fa-linkedin-square, h1 {
+        font-size: 0;
+        padding: 0;
+    }
+
+@media screen and (max-width: 992px) {
+    .container-fluid, .desktop-container {
+      height: 0;
+      padding: 0;
+    }
+    .col-1, .col-2, .fa-facebook-square, .fa-linkedin-square, h1 {
+        font-size: 0;
+        padding: 0;
+    }
