@@ -75,15 +75,35 @@ body {
 
 /****************************** /MAIN HEADER***********************************/
 
+/****************************** NAVBAR***********************************/
 
+.bg-navbar{
+    background-color: rgb(190, 190, 190);
+    height: 9vw;
+    padding: 0 2vw;
+    position: relative;
+}
 
+.navbar-logo i{
+    position: absolute;
+    top: 1vw;
+    font-size: 7vw;
+    padding-left: 1vw;
+}
 
+.navbar-brand h1{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Roboto",sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    top: 3vw;
+    letter-spacing: 0.2vw;
 
-/****************************** MEDIA QUERIES***********************************/
+}
 
-
-
-/****************************** /MEDIA QUERIES***********************************/
+/****************************** /NAVBAR***********************************/
 
 
 section{
