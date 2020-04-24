@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/******************************MAIN HEADER***********************************/
 
-body {
+
+* {
     font-family: "Open Sans", sans-serif;
-    background-color: #fafafa;
     padding: 0;
     margin: 0;
     color: #212529;
 }
 
+body{
+    background-color: #fafafa;
+}
 .container-fluid{
     background-color: rgb(190, 190, 190);
     height: 9vw;
@@ -18,73 +20,18 @@ body {
 }
 
 
-/**BRAND**/
-
-.brand-logo i{
-    position: absolute;
-    top: 1vw;
-    font-size: 7vw;
-    padding-left: 1vw;
-    
-}
-
-.brand-name h1{
-    position: absolute;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: "Roboto",sans-serif;
-    font-size: 3vw;
-    text-align: center;
-    top: 1vw;
-    letter-spacing: 0.2vw;
-}
-
-
-
-/**CONTACT DETAILS**/
-
-.contact-mail-header{
-    position: absolute;
-    padding-top: 2vw;
-    margin-left: 50%;
-    font-size: 1.5vw;
-}
-
-.contact-number-mail{
-    position: absolute;
-    padding-top: 5vw;
-    margin-left: 50%;
-    font-size: 1.5vw;
-}
-
-.contact-number-mail h6, .contact-mail-header h6{
-    display: inline;
-    font-size: 1.5vw;
-    padding-left: 0.5vw;
-}
-
-
-/**SOCIAL ICONS**/
-
-.social-media-header{
-    font-size: 2vw;
-    padding-top: 1vw;
-    padding-right: 0;
-    margin-left: 90%;
-    text-align: center;
-}
-
-
-
-/****************************** /MAIN HEADER***********************************/
-
 /****************************** NAVBAR***********************************/
 
 .bg-navbar{
-    background-color: rgba(190, 190, 190, 0.7);
-    height: 4.5vw;
+    background-color: rgb(155, 155, 155);
+    height: 5vw;
     padding: 0 2vw;
     position: relative;
+    z-index: 1;
+}
+
+.fixed{
+    position: fixed;
 }
 
 /*NAVBAR BRAND*/
@@ -93,6 +40,7 @@ body {
     position: absolute;
     font-size: 4.5vw;
     padding-left: 1vw;
+    top: 0.25vw;
 }
 
 .navbar-brand h1{
@@ -102,7 +50,7 @@ body {
     font-family: "Roboto",sans-serif;
     font-size: 2.5vw;
     text-align: center;
-    top: .75vw;
+    top: 1vw;
     letter-spacing: 0.2vw;
 }
 
@@ -113,7 +61,8 @@ body {
 /*NAVBAR LINKS*/
 
 .navbar-links{
-    margin-left: 50%;
+    margin-left: 56%;
+    margin-top: 0.75vw;
 }
 
 .navbar-links a{
@@ -121,6 +70,7 @@ body {
     color: #212529;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 1.25vw;
 }
 
 .navbar-links a:hover{
@@ -135,10 +85,58 @@ body {
 /****************************** /NAVBAR***********************************/
 
 
+/******************************HEADER***********************************/
+
+.contact-header{
+    top: 4.5vw;
+    height: 3.5vw;
+}
+
+/**CONTACT DETAILS**/
+
+.contact-mail-header{
+    position: absolute;
+    padding-top: 1vw;
+    margin-left: 30%;
+    font-size: 1.25vw;
+}
+
+.contact-number-mail{
+    position: absolute;
+    padding-top: 1vw;
+    margin-left: 10%;
+    font-size: 1.25vw;
+}
+
+.contact-number-mail h6, .contact-mail-header h6{
+    display: inline;
+    font-size: 1.25vw;
+    padding-left: 0.5vw;
+}
+
+
+/**SOCIAL ICONS**/
+
+.social-media-header{
+    font-size: 2vw;
+    padding-top: 0.4vw;
+    padding-right: 0;
+    margin-left: 87%;
+    text-align: center;
+    letter-spacing: 0.5vw;
+}
+
+
+
+/****************************** /HEADER***********************************/
+
+
+
 section{
+    position: relative;
     height: 500px;
     text-align: center;
-    padding-top: 200px;
+    top: 100px;
 }
 
 
