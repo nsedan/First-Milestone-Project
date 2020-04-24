@@ -46,12 +46,14 @@ body {
 .contact-mail-header{
     position: absolute;
     padding-top: 2vw;
+    margin-left: 50%;
     font-size: 1.5vw;
 }
 
 .contact-number-mail{
     position: absolute;
     padding-top: 5vw;
+    margin-left: 50%;
     font-size: 1.5vw;
 }
 
@@ -68,6 +70,7 @@ body {
     font-size: 2vw;
     padding-top: 1vw;
     padding-right: 0;
+    margin-left: 90%;
     text-align: center;
 }
 
@@ -78,16 +81,17 @@ body {
 /****************************** NAVBAR***********************************/
 
 .bg-navbar{
-    background-color: rgb(190, 190, 190);
-    height: 9vw;
+    background-color: rgba(190, 190, 190, 0.7);
+    height: 4.5vw;
     padding: 0 2vw;
     position: relative;
 }
 
+/*NAVBAR BRAND*/
+
 .navbar-logo i{
     position: absolute;
-    top: 1vw;
-    font-size: 7vw;
+    font-size: 4.5vw;
     padding-left: 1vw;
 }
 
@@ -96,12 +100,37 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Roboto",sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
-    top: 3vw;
+    top: .75vw;
     letter-spacing: 0.2vw;
-
 }
+
+.navbar-brand>h1{
+    margin-left: -2vw;
+}
+
+/*NAVBAR LINKS*/
+
+.navbar-links{
+    margin-left: 50%;
+}
+
+.navbar-links a{
+    margin-right: 2vw;
+    color: #212529;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-links a:hover{
+    text-decoration: none;
+}
+
+.hvr-underline-from-center:before{
+    background: rgba(0, 0, 0, 0.25);
+}
+
 
 /****************************** /NAVBAR***********************************/
 
@@ -109,7 +138,7 @@ body {
 section{
     height: 500px;
     text-align: center;
-    padding-top: 500px;
+    padding-top: 200px;
 }
 
 
