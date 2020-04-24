@@ -13,7 +13,7 @@ body{
     background-color: #fafafa;
 }
 .container-fluid{
-    background-color: rgb(190, 190, 190);
+    background-color: #6c757d;
     height: 9vw;
     padding: 0 2vw;
     position: relative;
@@ -23,7 +23,7 @@ body{
 /****************************** NAVBAR***********************************/
 
 .bg-navbar{
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(170, 170, 170);
     height: 5vw;
     padding: 0 2vw;
     position: relative;
@@ -41,6 +41,7 @@ body{
     font-size: 4.5vw;
     padding-left: 1vw;
     top: 0.25vw;
+    color: #212529;
 }
 
 .navbar-brand h1{
@@ -52,6 +53,7 @@ body{
     text-align: center;
     top: 1vw;
     letter-spacing: 0.2vw;
+    color: #212529;
 }
 
 .navbar-brand>h1{
@@ -82,6 +84,7 @@ body{
 }
 
 
+
 /****************************** /NAVBAR***********************************/
 
 
@@ -97,14 +100,14 @@ body{
 .contact-mail-header{
     position: absolute;
     padding-top: 1vw;
-    margin-left: 30%;
+    margin-left: 37%;
     font-size: 1.25vw;
 }
 
 .contact-number-mail{
     position: absolute;
     padding-top: 1vw;
-    margin-left: 10%;
+    margin-left: 17%;
     font-size: 1.25vw;
 }
 
@@ -112,8 +115,12 @@ body{
     display: inline;
     font-size: 1.25vw;
     padding-left: 0.5vw;
+    color: #fafafa;
 }
 
+.fa-phone-square, .fa-envelope{
+    color: #fafafa;
+}
 
 /**SOCIAL ICONS**/
 
@@ -121,11 +128,71 @@ body{
     font-size: 2vw;
     padding-top: 0.4vw;
     padding-right: 0;
-    margin-left: 87%;
+    margin-left: 80%;
     text-align: center;
     letter-spacing: 0.5vw;
 }
 
+.fa-linkedin-square, .fa-facebook-square{
+    color: #fafafa;
+}
+
+
+/**LANGUAGE SELECTOR**/
+
+.btn{
+    position: relative;
+    top: 0.1vw;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+    height: 3vw;
+    padding: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+.language-selector{
+    color: #d6d6d6;
+    margin-left: 2vw;
+}
+
+.fa-globe{
+    font-size: 1.75vw;
+    margin-top: 0.75vw;
+    color: #fafafa;
+}
+
+.dropdown-toggle{
+    font-size: 1.75vw;
+}
+
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-item:hover{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    color: white;
+    background: grey;
+    font-weight: 600;
+}
 
 
 /****************************** /HEADER***********************************/
