@@ -316,6 +316,32 @@ h5{
 /****************************** /WHO WE ARE***********************************/
 
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #979797;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #808080;
+  }
+
+  .fa-angle-double-up{
+      color: #fafafa;
+      font-size: 1.8rem;
+  }
+
+
+
 
 
 body{
