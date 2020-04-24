@@ -14,8 +14,6 @@ body{
 }
 .container-fluid{
     background-color: #6c757d;
-    height: 9vw;
-    padding: 0 2vw;
     position: relative;
 }
 
@@ -31,12 +29,17 @@ h1,h2,h3,h4,h5{
     text-transform: uppercase;
 }
 
+#about-us{
+    position: absolute;
+    top: 35rem;
+}
+
 /****************************** NAVBAR***********************************/
 
 .bg-navbar{
     background-color: rgb(170, 170, 170);
-    height: 5vw;
-    padding: 0 2vw;
+    height: 4.1rem;
+    padding: 0 1rem;
     position: relative;
     z-index: 1;
 }
@@ -47,54 +50,55 @@ h1,h2,h3,h4,h5{
 
 /*NAVBAR BRAND*/
 
-.navbar-logo i{
+.fa-certificate{
     position: absolute;
-    font-size: 4.5vw;
-    padding-left: 1vw;
-    top: 0.25vw;
+    font-size: 3.8rem;
+    top: 0.24rem;
     color: #1d4063;
     text-shadow: 2px 2px 2px #e0a354;
 }
 
-.navbar-logo i:nth-child(2){
+.fa-circle{
     position: absolute;
-    font-size: 2vw;
-    padding-left: 2vw;
-    top: 1.5vw;
+    font-size: 1.6rem;
+    padding-left: 0.9rem;
+    top: 1.4rem;
     color: #e0a354;
-    text-shadow: 2px 2px 2px #4474a3;
+    text-shadow: 2.5px 3px 3px #4474a3;
 }
 
-.navbar-brand h1{
+h1{
     position: absolute;
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Asul",sans-serif;
-    font-size: 2.5vw;
-    text-align: center;
-    top: 1vw;
-    letter-spacing: 0.2vw;
+    font-size: 1.5rem;
+    text-align: left;
+    top: 0.4rem;
+    word-spacing: 0.5rem;
     color: #1d4063;
-    text-shadow: 2px 2px 2px #1d4063;
+    text-shadow: 2px 2px 2px #1d4063ab;
 }
 
-.navbar-brand>h1{
-    margin-left: -2vw;
+.navbar-brand{
+    white-space: normal;
+    position: absolute;
+    margin-left: 3.50rem;
 }
 
 /*NAVBAR LINKS*/
 
 .navbar-links{
-    margin-left: 56%;
-    margin-top: 0.75vw;
+    margin-left: 60%;
+    margin-top: 1.35rem;
 }
 
 .navbar-links a{
-    margin-right: 2vw;
+    margin-right: 1.5rem;
     color: #212529;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 1.25vw;
+    font-size: 0.9rem;
 }
 
 .navbar-links a:hover{
@@ -113,24 +117,24 @@ h1,h2,h3,h4,h5{
 /******************************HEADER***********************************/
 
 .contact-header{
-    top: 4.5vw;
-    height: 3.5vw;
+    top: 4.1rem;
+    height: 3rem;
 }
 
 /**CONTACT DETAILS**/
 
 .contact-mail-header{
     position: absolute;
-    padding-top: 1vw;
+    padding-top: 0.7rem;
     margin-left: 37%;
-    font-size: 1.25vw;
+    font-size: 1rem;
 }
 
 .contact-number-mail{
     position: absolute;
-    padding-top: 1vw;
+    padding-top: 0.7rem;
     margin-left: 17%;
-    font-size: 1.25vw;
+    font-size: 1rem;
 }
 
 .contact-number-mail h6, .contact-mail-header h6{
@@ -185,7 +189,6 @@ h1,h2,h3,h4,h5{
 
 .fa-globe{
     font-size: 1.75vw;
-    margin-top: 0.75vw;
     color: #fafafa;
 }
 
@@ -230,7 +233,13 @@ h1,h2,h3,h4,h5{
 
 /****************************** /HEADER***********************************/
 
+/******************************WHO WE ARE***********************************/
 
+
+.container .who-we-are{
+    margin-left: 4%;
+    margin-right: 4%;
+}
 
 .who-we-are{
     text-align: center;
@@ -254,26 +263,28 @@ h1,h2,h3,h4,h5{
 
 .reputation{
     text-align: justify;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .specialty{
     text-align: left;
-    font-size: 1vw;
+    font-size: 1rem;
     margin-bottom: 1vw;
 }
 
-.col-12>h2{
-    margin-bottom: 2vw;
+h2{
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.9rem;
 }
 
-.col-6>h5{
-    margin-top: 2vw;
+h5{
+    margin-top: 0.5rem;
 }
 
 .work-areas-list{
     list-style-type: none;
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: left;
     position: absolute;
     left: 8vw;
@@ -281,4 +292,21 @@ h1,h2,h3,h4,h5{
 
 .fa-check-square{
     color: rgb(66, 66, 66);
+}
+
+.col-lg-6{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.row-no-left-margin{
+    margin-left: 0;
+}
+
+
+
+/****************************** /WHO WE ARE***********************************/
+
+body{
+    height: 10000px;
 }
