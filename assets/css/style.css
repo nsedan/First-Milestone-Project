@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
 
 
 * {
@@ -44,19 +44,30 @@ body{
     font-size: 4.5vw;
     padding-left: 1vw;
     top: 0.25vw;
-    color: #212529;
+    color: #1d4063;
+    text-shadow: 2px 2px 2px #e0a354;
+}
+
+.navbar-logo i:nth-child(2){
+    position: absolute;
+    font-size: 2vw;
+    padding-left: 2vw;
+    top: 1.5vw;
+    color: #e0a354;
+    text-shadow: 2px 2px 2px #4474a3;
 }
 
 .navbar-brand h1{
     position: absolute;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Roboto",sans-serif;
+    font-family: "Asul",sans-serif;
     font-size: 2.5vw;
     text-align: center;
     top: 1vw;
     letter-spacing: 0.2vw;
-    color: #212529;
+    color: #1d4063;
+    text-shadow: 2px 2px 2px #1d4063;
 }
 
 .navbar-brand>h1{
@@ -182,6 +193,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    padding-left: 1vw;
 }
 
 .dropdown-item:hover{
@@ -189,6 +201,7 @@ body{
     padding: 0;
     background: rgba(0, 0, 0, 0.2);
     font-weight: 600;
+    padding-left: 1vw;
 }
 
 .dropdown-item.active, .dropdown-item:active{
