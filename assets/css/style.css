@@ -225,9 +225,17 @@ h1{
 
 /**HERO IMAGE**/
 
-.hero-image{
-    position: absolute;
-    width: 100%;
+#hero-image{
+    height: 100vh;
+    background: url(../images/successful-team-group.png) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     z-index: -1;
 }
 
@@ -244,7 +252,6 @@ h1{
 .who-we-are{
     text-align: center;
     margin-top: 1.25vw;
-    top: 45vw;
 }
 
 .who-we-are h2,.who-we-are h5{
@@ -306,15 +313,6 @@ h5{
 
 
 /****************************** /WHO WE ARE***********************************/
-
-@media only screen and (max-width: 380px){
-    .hero-image{
-        top: 4rem;
-    }
-    .who-we-are{
-        top: 15rem;
-    }
-}
 
 
 
