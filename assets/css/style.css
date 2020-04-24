@@ -307,6 +307,18 @@ h5{
 
 /****************************** /WHO WE ARE***********************************/
 
+@media only screen and (max-width: 380px){
+    .hero-image{
+        top: 4rem;
+    }
+    .who-we-are{
+        top: 15rem;
+    }
+}
+
+
+
+
 body{
     height: 10000px;
 }
