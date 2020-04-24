@@ -19,6 +19,9 @@ body{
     position: relative;
 }
 
+.row{
+    width: 100%;
+}
 
 /****************************** NAVBAR***********************************/
 
@@ -194,6 +197,14 @@ body{
     font-weight: 600;
 }
 
+
+/**HERO IMAGE**/
+
+.hero-image{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
 
 /****************************** /HEADER***********************************/
 
