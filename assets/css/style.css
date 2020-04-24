@@ -227,7 +227,7 @@ h1{
 /**HERO IMAGE**/
 
 #hero-image{
-    height: 100vh;
+    height: 40rem;
     background: url(../images/successful-team-group.png) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -239,6 +239,15 @@ h1{
     position: relative;
     z-index: -1;
 }
+
+
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
 
 /****************************** /HEADER***********************************/
 
@@ -253,6 +262,7 @@ h1{
 .who-we-are{
     text-align: center;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .who-we-are h2,.who-we-are h5{
@@ -290,6 +300,11 @@ h5{
     margin-top: 0.5rem;
 }
 
+.list-container{
+    position: relative;
+    margin-bottom: 9rem;
+}
+
 .work-areas-list{
     list-style-type: none;
     font-size: 1rem;
@@ -315,6 +330,41 @@ h5{
 
 /****************************** /WHO WE ARE***********************************/
 
+/****************************** BREAK***********************************/
+.break-image{
+    height: 10rem;
+    background: url(../images/stats-bg.jpg) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.blockquote{
+    position: absolute;
+}
+
+.blockquote p{
+    color: #fafafa;
+    font-style: italic;
+    font-weight: 500;
+    padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.blockquote-footer{
+    color: #e9e9e9;
+    font-weight: bold;
+    padding: 0 1.5rem 1rem 1.5rem;
+}
+
+/****************************** /BREAK***********************************/
+
+/****************************** TO TOP***********************************/
 
 #myBtn {
     display: none;
@@ -341,7 +391,7 @@ h5{
   }
 
 
-
+/****************************** /TO TOP***********************************/
 
 
 body{
