@@ -277,7 +277,7 @@ h1{
 .specialty{
     text-align: left;
     font-size: 1rem;
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
 }
 
 h2{
@@ -295,7 +295,7 @@ h5{
     font-size: 1rem;
     text-align: left;
     position: absolute;
-    left: 8vw;
+    left: 7rem;
 }
 
 .fa-check-square{
