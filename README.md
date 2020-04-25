@@ -1,4 +1,4 @@
-# Your Project's Name
+# First Milestone Project - **Stardust Accountants**
 
 One or two paragraphs providing an overview of your project.
 
@@ -23,8 +23,6 @@ In this section, you should go over the different parts of your project, and des
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 - Another feature idea
 
@@ -37,6 +35,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [Bootstrap](https://getbootstrap.com/)
+    - I used **Bootstrap** to style layout and elements.
 
 
 
@@ -73,6 +74,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+
+- To [w3shools](https://www.w3schools.com/)
+
 
 ### Content
 - The text for the services and about us sections was copied from the http://www.est-sanchez.com.ar/
