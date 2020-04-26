@@ -31,12 +31,17 @@ h1,h2,h3,h4,h5{
 
 #services{
     position: absolute;
-    top: 76rem;
+    top: 75rem;
 }
 
 #why-choose-us{
     position: absolute;
-    top: 146rem;
+    top: 144rem;
+}
+
+#contact{
+    position: absolute;
+    top: 182rem;
 }
 
 .fa{
@@ -342,7 +347,7 @@ h5{
 
 /****************************** /WHO WE ARE***********************************/
 
-/****************************** /SERVICES***********************************/
+/****************************** SERVICES***********************************/
 
 .container .services{
     margin-left: 4%;
@@ -360,8 +365,12 @@ h5{
 }
 
 #services-img{
-    margin-top: 1.3rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
+}
+
+.d-lg-block img{
+    max-width: 25rem;
 }
 
 .list-group{
@@ -398,8 +407,24 @@ h5{
 }
 
 
-
 /****************************** /WHY CHOOSE US***********************************/
+
+/****************************** CONTACT US**********************************/
+
+.container-fluid .contact{  
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact h2,.contact h5{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+}
 
 
 /****************************** BREAK***********************************/
