@@ -258,7 +258,7 @@ h1{
 /**HERO IMAGE**/
 
 #hero-image{
-    height: 40rem;
+    height: 30rem;
     background: url(../images/successful-team-group.png) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
