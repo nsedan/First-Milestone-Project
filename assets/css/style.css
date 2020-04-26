@@ -13,7 +13,6 @@ body{
     background-color: #fafafa;
 }
 .container-fluid{
-    background-color: #6c757d;
     position: relative;
 }
 
@@ -33,6 +32,11 @@ h1,h2,h3,h4,h5{
 #services{
     position: absolute;
     top: 76rem;
+}
+
+#why-choose-us{
+    position: absolute;
+    top: 146rem;
 }
 
 .fa{
@@ -122,7 +126,7 @@ h1{
 /******************************HEADER***********************************/
 
 .contact-header{
-    top: 4.1rem;
+    top: 4.5rem;
     height: 3rem;
 }
 
@@ -131,6 +135,7 @@ h1{
 .contact-mail-header{
     position: absolute;
     padding-top: 0.7rem;
+    padding-left: 0;
     margin-left: 20%;
     font-size: 1rem;
 }
@@ -138,21 +143,20 @@ h1{
 .contact-number-mail{
     position: absolute;
     padding-top: 0.7rem;
-    margin-left: 50%;
+    margin-left: 55%;
     font-size: 1rem;
 }
 
 .contact-number-mail h6, .contact-mail-header h6{
     display: inline;
     font-size: 1rem;
-    padding-left: 0.5rem;
     color: #fafafa;
     font-family: "Open Sans", sans-serif;
 }
 
 .fa-phone-square, .fa-envelope{
     color: #fafafa;
-    padding-right: 0;
+    padding-right: 0.5rem;
 }
 
 /**SOCIAL ICONS**/
@@ -163,7 +167,6 @@ h1{
     padding-right: 0;
     margin-left: 80%;
     text-align: center;
-    letter-spacing: 0.3rem;
 }
 
 .fa-linkedin-square, .fa-facebook-square{
@@ -181,19 +184,19 @@ h1{
     position: relative;
 }
 
-.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+.btn-light, .btn-light:hover, .btn-light:focus, .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle, .btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, .show>.btn-light.dropdown-toggle:focus {
     height: 3rem;
     padding: 0;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 0;
     border: none;
+    color: transparent;
+    background-color:transparent;
+    border-color: transparent;
+    box-shadow: none;
 }
 
-.language-selector{
-    color: #d6d6d6;
-    margin-left: 1rem;
-}
 
 .fa-globe{
     font-size: 1.5rem;
@@ -230,6 +233,11 @@ h1{
     font-weight: 600;
 }
 
+
+.block-divider-header{
+    margin:0;
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+}
 
 /**HERO IMAGE**/
 
@@ -276,7 +284,7 @@ h1{
     text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
-.block-divider{
+.block-divider--short{
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     border-top: 3px solid rgba(0,0,0,.3);
@@ -334,6 +342,7 @@ h5{
 
 /****************************** /WHO WE ARE***********************************/
 
+/****************************** /SERVICES***********************************/
 
 .container .services{
     margin-left: 4%;
@@ -351,7 +360,6 @@ h5{
 }
 
 #services-img{
-    width: 100%;
     margin-top: 1.3rem;
     border-radius: 10px;
 }
@@ -365,6 +373,34 @@ h5{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/****************************** /SERVICES***********************************/
+
+/****************************** WHY CHOOSE US***********************************/
+
+.container .why-choose-us{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.why-choose-us{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.why-choose-us h2,.why-choose-us h5{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+}
+
+.why-choose-us p{
+    text-align: justify;
+}
+
+
+
+/****************************** /WHY CHOOSE US***********************************/
+
 
 /****************************** BREAK***********************************/
 .break-image{

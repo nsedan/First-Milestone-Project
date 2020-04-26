@@ -1,4 +1,4 @@
-# First Milestone Project - **Stardust Accountants**
+# First Milestone Project - Stardust Accountants
 
 One or two paragraphs providing an overview of your project.
 
