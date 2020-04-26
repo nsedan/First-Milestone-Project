@@ -51,8 +51,8 @@ h1,h2,h3,h4,h5{
 /****************************** NAVBAR***********************************/
 
 .bg-navbar{
-    background: url(../images/footer.png);
-    height: 4.1rem;
+    background: url(../images/header.png);
+    height: 4.4rem;
     z-index: 1;
 }
 
@@ -474,7 +474,7 @@ textarea{
 
 footer .list-group-item {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
