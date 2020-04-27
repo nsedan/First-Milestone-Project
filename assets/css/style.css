@@ -459,6 +459,10 @@ textarea{
     max-height: 6rem;
 }
 
+.required-red{
+    color: red;
+}
+
 /**       ** /CONTACT US**       */
 
 /**       ** FOOTER**       **/

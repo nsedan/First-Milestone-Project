@@ -1,8 +1,7 @@
-//Get the button:
+// TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -12,9 +11,23 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
+
+// CONTACT ALERT
+function empty() {
+  let emptyForm;
+  emptyForm = document.getElementById("fname").value,
+    document.getElementById("email").value,
+    document.getElementById("message").value;
+
+  if (emptyForm == "") {
+    alert("Please fill all required fields.");
+  } else {
+    alert("You message has been sent!")
+  }
+
+}

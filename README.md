@@ -76,6 +76,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 - To [w3shools](https://www.w3schools.com/)
+- To [Stack Overflow](https://stackoverflow.com/)
+- To [Ian Luun](https://ianlunn.github.io/Hover/)
 
 
 ### Content
@@ -87,6 +89,9 @@ In addition, if it is not obvious, you should also describe how to run your code
     - https://www.shutterstock.com/
     - http://www.est-sanchez.com.ar/
     - https://www.123rf.com/
+    - https://cdn.wallpapersafari.com/
+    - https://www.creativesnapbacks.com/
+    - https://thereceptionist.com/
 
 
 ### Acknowledgements
