@@ -26,29 +26,29 @@ h1,h2,h3,h4,h5{
 
 #about-us{
     position: absolute;
-    top: 37rem;
+    top: 27rem;
 }
 
 #services{
     position: absolute;
-    top: 75rem;
+    top: 65rem;
 }
 
 #why-choose-us{
     position: absolute;
-    top: 144rem;
+    top: 134rem;
 }
 
 #contact{
     position: absolute;
-    top: 176rem;
+    top: 166rem;
 }
 
 .fa{
     padding-right: 0.5rem;
 }
 
-/****************************** NAVBAR***********************************/
+/**       ** NAVBAR**       **/
 
 .bg-navbar{
     background: url(../images/header.png);
@@ -132,10 +132,10 @@ h1{
 
 
 
-/****************************** /NAVBAR***********************************/
+/**       ** /NAVBAR**       **/
 
 
-/******************************HEADER***********************************/
+/**       **HEADER**       **/
 
 .contact-header{
     top: 4.5rem;
@@ -280,9 +280,9 @@ h1{
     z-index: -1;
   }
 
-/****************************** /HEADER***********************************/
+/**       ** /HEADER**       **/
 
-/******************************WHO WE ARE***********************************/
+/**       **WHO WE ARE**       **/
 
 
 .container .who-we-are{
@@ -350,9 +350,9 @@ h5{
     padding-left: 2%;
 }
 
-/****************************** /WHO WE ARE***********************************/
+/**       ** /WHO WE ARE**       **/
 
-/****************************** SERVICES***********************************/
+/**       ** SERVICES**       **/
 
 .container .services{
     margin-left: 4%;
@@ -388,9 +388,9 @@ h5{
     margin-bottom: 1rem;
 }
 
-/****************************** /SERVICES***********************************/
+/**       ** /SERVICES**       **/
 
-/****************************** WHY CHOOSE US***********************************/
+/**       ** WHY CHOOSE US**       **/
 
 .container .why-choose-us{
     margin-left: 4%;
@@ -412,9 +412,9 @@ h5{
 }
 
 
-/****************************** /WHY CHOOSE US***********************************/
+/**       ** /WHY CHOOSE US**       **/
 
-/****************************** CONTACT US**********************************/
+/**       ** CONTACT US**       */
 
 .container-fluid .contact{  
     margin: 0;
@@ -459,9 +459,9 @@ textarea{
     max-height: 6rem;
 }
 
-/****************************** /CONTACT US**********************************/
+/**       ** /CONTACT US**       */
 
-/****************************** FOOTER***********************************/
+/**       ** FOOTER**       **/
 
 .footer-img{
     background: url(../images/footer-background-01.jpg) no-repeat center;
@@ -491,7 +491,7 @@ footer h2{
     font-size: 1.8rem;
 }
 
-footer h5{
+footer a{
     font-size: 2.5rem;
     display: inline;
 }
@@ -519,9 +519,9 @@ footer .legal-footer, footer small{
 }
 
 
-/****************************** /FOOTER***********************************/
+/**       ** /FOOTER**       **/
 
-/****************************** BREAK***********************************/
+/**       ** BREAK**       **/
 .break-image{
     height: 10rem;
     background: url(../images/stats-bg.jpg) no-repeat bottom center fixed;
@@ -553,7 +553,7 @@ footer .legal-footer, footer small{
     padding: 0 1.5rem 1rem 1.5rem;
 }
 
-/****************************** /BREAK***********************************/
+/**       ** /BREAK**       **/
 
 
 .list-group-item {
@@ -575,7 +575,7 @@ footer .legal-footer, footer small{
 
 
 
-/****************************** TO TOP***********************************/
+/**       ** TO TOP**       **/
 
 #myBtn {
     display: none;
@@ -603,4 +603,4 @@ footer .legal-footer, footer small{
   }
 
 
-/****************************** /TO TOP***********************************/
+/**       ** /TO TOP**       **/
