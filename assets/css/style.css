@@ -612,16 +612,22 @@ footer .legal-footer, footer small{
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    
-    .btn-secondary{
+        .btn-secondary{
         margin: 0;
     }
+    .work-areas-list{
+        left: 2rem;
+    }
+    
 }
 
 @media only screen and (min-width: 576px) {
     #services-img{
         margin-top: 2rem;
         max-width: 100%;
+    }
+    .work-areas-list{
+        left: 3rem;
     }
 }
 
@@ -641,7 +647,10 @@ footer .legal-footer, footer small{
     #services-img{
         margin-top: -2rem;
         max-width: 100%;
-    }   
+    }
+    .work-areas-list{
+        left: 7rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
