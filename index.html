@@ -83,7 +83,7 @@
 
     <!--     -HEADER        -->
     <header>
-        <div class="container-fluid contact-header d-none d-md-block">
+        <div class="container-fluid position-relative contact-header d-none d-md-block">
             <div class="row">
                 <div class="col-4 contact-mail-header">
                     <i class="fa fa-envelope"></i>
@@ -101,8 +101,8 @@
                     <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                 </div>
                 <div class="dropleft language-selector">
-                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-light position-relative dropdown-toggle" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-globe"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -127,12 +127,8 @@
     <!--     -ABOUT US        -->
     <i id="about-us"></i>
     <i id="about-us-collapse"></i>
-    <section class="container who-we-are">
-        <div class="row">
-            <div class="col-12">
-                <h2>Who we are</h2>
-            </div>
-        </div>
+    <section class="container position-relative who-we-are">
+        <header>Who we are</header>
         <div class="row">
             <div class="col-12">
                 <p class="about-us">Consulting and auditing firm, specialized in advertising and communications.</p>
@@ -187,12 +183,8 @@
     <!--     -SERVICES        -->
     <i id="services"></i>
     <i id="services-collapse"></i>
-    <section class="container services">
-        <div class="row">
-            <div class="col-12">
-                <h2>Services</h2>
-            </div>
-        </div>
+    <section class="container position-relative services">
+        <header>Services</header>
         <div class="row">
             <div class="col-12 col-md-6">
                 <h5><i class="fa fa-bullhorn"></i>Tax outsourcing</h5>
@@ -295,12 +287,8 @@
     <!--     -WHY CHOOSE US        -->
     <i id="why-choose-us"></i>
     <i id="why-choose-us-collapse"></i>
-    <section class="container why-choose-us">
-        <div class="row">
-            <div class="col-12">
-                <h2>Why choose us</h2>
-            </div>
-        </div>
+    <section class="container position-relative why-choose-us">
+        <header>Why choose us</header>
         <div class="row">
             <div class="col-12 col-md-6">
                 <h5><i class="fa fa-star"></i>Specialization</h5>
@@ -341,7 +329,7 @@
     <!--     -CONTACT        -->
     <i id="contact"></i>
     <i id="contact-collapse"></i>
-    <section class="container-fluid contact">
+    <section class="container-fluid position-relative contact">
         <div class="row">
             <div class="col-md-6 d-none d-md-block">
                 <iframe
@@ -349,11 +337,11 @@
                     style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="col-12 col-md-6">
-                <h2>Get in touch</h2>
-                <form method="GET">
+                <header>Get in touch</header>
+                <form>
                     <div class="form-group">
                         <label for="fname">First Name <span class="required-red">*</span></label>
-                        <input type="text" class="form-control" id="fname" placeholder="First Name">
+                        <input type="text" class="form-control" id="fname" placeholder="First Name" required>
                     </div>
                     <div class="form-group">
                         <label for="lname">Last Name</label>
@@ -361,7 +349,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email">Email <span class="required-red">*</span></label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
@@ -372,9 +360,9 @@
                     <div class="form-group">
                         <label for="message">Message <span class="required-red">*</span></label>
                         <textarea class="form-control" id="message" placeholder="Leave your message here."
-                            maxlength="140"></textarea>
+                            maxlength="140" required></textarea>
                     </div>
-                    <input type="submit" onclick="empty()" class="btn btn-secondary" value="Submit">
+                    <input type="submit" class="btn btn-secondary" value="Submit">
                 </form>
             </div>
         </div>
@@ -383,7 +371,7 @@
 
     <!--     -FOOTER        -->
 
-    <footer class="container-fluid footer-img">
+    <footer class="container-fluid position-relative footer-img">
         <div class="row">
             <div class="col-11 offset-1 col-md-5">
                 <ul class="list-group">
@@ -401,7 +389,7 @@
                 </ul>
             </div>
             <div class="col-12 col-md-6">
-                <h2>Follow Us</h2>
+                <header>Follow Us</header>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
             </div>

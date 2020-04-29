@@ -12,16 +12,14 @@
 body{
     background-color: #fafafa;
 }
-.container-fluid{
+.position-relative{
     position: relative;
 }
 
-.container{
-    position: relative;
-}
-
-h1,h2,h3,h4,h5{
+h5{
     text-transform: uppercase;
+    margin-top: 0.5rem;
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
 #about-us{
@@ -160,7 +158,9 @@ h1{
     z-index: 1;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary.focus, .btn-primary:focus, .btn-primary:focus, .btn-primary, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary.focus, 
+.btn-primary:focus, .btn-primary:focus, .btn-primary, .btn-primary:hover, 
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
     border: none;
     color: transparent;
     background-color:transparent;
@@ -174,15 +174,17 @@ h1{
     text-decoration: none;
     color: #fafafa;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 ul .collapse-nav-item{
     list-style: none;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 ul .collapse-nav-item:first-child{
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 ul .collapse-nav-item:last-child{
@@ -196,7 +198,7 @@ ul .collapse-nav-item:last-child{
 }
 
 .collapse-link:hover{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -260,11 +262,10 @@ ul .collapse-nav-item:last-child{
 
 /**LANGUAGE SELECTOR**/
 
-.btn{
-    position: relative;
-}
-
-.btn-light, .btn-light:hover, .btn-light:focus, .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle, .btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, .show>.btn-light.dropdown-toggle:focus {
+.btn-light, .btn-light:hover, .btn-light:focus, .btn-light:not(:disabled):not(.disabled).active, 
+.btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle, 
+.btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-light.dropdown-toggle:focus {
     height: 3rem;
     padding: 0;
     padding-left: 1rem;
@@ -352,6 +353,14 @@ ul .collapse-nav-item:last-child{
 
 /**       **WHO WE ARE**       **/
 
+.who-we-are header{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
 
 .container .who-we-are{
     margin-left: 4%;
@@ -362,10 +371,6 @@ ul .collapse-nav-item:last-child{
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-}
-
-.who-we-are h2,.who-we-are h5{
-    text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
 .block-divider--short{
@@ -383,16 +388,6 @@ ul .collapse-nav-item:last-child{
     text-align: left;
     font-size: 1rem;
     margin-bottom: 1rem;
-}
-
-h2{
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    font-size: 1.9rem;
-}
-
-h5{
-    margin-top: 0.5rem;
 }
 
 .list-container{
@@ -422,6 +417,15 @@ h5{
 
 /**       ** SERVICES**       **/
 
+.services header{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .container .services{
     margin-left: 4%;
     margin-right: 4%;
@@ -431,10 +435,6 @@ h5{
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-}
-
-.services h2,.services h5{
-    text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
 #services-img{
@@ -457,6 +457,15 @@ h5{
 
 /**       ** WHY CHOOSE US**       **/
 
+.why-choose-us header{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .container .why-choose-us{
     margin-left: 4%;
     margin-right: 4%;
@@ -468,10 +477,6 @@ h5{
     margin-bottom: 2rem;
 }
 
-.why-choose-us h2,.why-choose-us h5{
-    text-shadow: 2px 2px rgba(170, 170, 170,.7);
-}
-
 .why-choose-us p{
     text-align: justify;
 }
@@ -480,6 +485,15 @@ h5{
 /**       ** /WHY CHOOSE US**       **/
 
 /**       ** CONTACT US**       */
+
+.contact header{
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+}
 
 .container-fluid .contact{  
     margin: 0;
@@ -490,10 +504,6 @@ h5{
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-}
-
-.contact h2,.contact h5{
-    text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
 iframe{
@@ -551,13 +561,16 @@ footer ul.list-group{
     margin-bottom: 0.5rem;
 }
 
-footer h2{
+footer header{
     color: #fafafa;
     text-shadow: 2px 2px rgb(63, 63, 63);
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     margin-left: 20%;
     font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 footer a{
@@ -736,4 +749,4 @@ footer .legal-footer, footer small{
 }
 
 
-/**       ** /TO TOP**       **/
+/**       ** /MEDIA QUERIES **       **/
