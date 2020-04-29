@@ -24,42 +24,22 @@ h5{
 
 #about-us{
     position: absolute;
-    top: 27rem;
+    top: -7rem;
 }
 
 #services{
     position: absolute;
-    top: 65rem;
+    top: -7rem;
 }
 
 #why-choose-us{
     position: absolute;
-    top: 134rem;
+    top: -7rem;
 }
 
 #contact{
     position: absolute;
-    top: 166rem;
-}
-
-#about-us-collapse{
-    position: absolute;
-    top: 25rem;
-}
-
-#services-collapse{
-    position: absolute;
-    top: 81rem;
-}
-
-#why-choose-us-collapse{
-    position: absolute;
-    top: 207rem;
-}
-
-#contact-collapse{
-    position: absolute;
-    top: 255rem;
+    top: -7rem;
 }
 
 .fa{
@@ -151,6 +131,7 @@ h1{
 .fa-bars{
     padding: 0;
     color: #fafafa;
+    text-shadow: 2px 2px rgba(170, 170, 170,.7);
 }
 
 .col-md-1{
@@ -175,12 +156,13 @@ h1{
     color: #fafafa;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 ul .collapse-nav-item{
     list-style: none;
-    text-align: center;
-    padding-bottom: 1rem;
+    text-align: center; 
+    padding-bottom: 0.5rem;
 }
 
 ul .collapse-nav-item:first-child{
