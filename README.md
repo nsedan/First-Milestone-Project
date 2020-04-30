@@ -1,4 +1,4 @@
-# First Milestone Project - Stardust Accountants
+# Stardust Accountants
 
 One or two paragraphs providing an overview of your project.
 
@@ -81,7 +81,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ### Content
-- The text for the services and about us sections was copied from http://www.est-sanchez.com.ar/
+- The text for the services and about us sections was copied from http://www.est-sanchez.com.ar/ then edited and translated for this project.
 
 ### Media
 - The photos used in this site were obtained from:
