@@ -1,8 +1,8 @@
 # Stardust Accountants
 
-One or two paragraphs providing an overview of your project.
+> Audit, Consulting, Financial Advisory and Tax services.
 
-Essentially, this part is your sales pitch.
+![](/assets/images/screenshot.png)
  
 ## UX
  
