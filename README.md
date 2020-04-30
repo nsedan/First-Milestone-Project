@@ -2,33 +2,36 @@
 
 > Audit, Consulting, Financial Advisory and Tax services.
 
+This is the website of Stardust Accountants services, a real new accounting firm, specialized in Advertising and Public Relations companies. The actual site will be finished and hosted in June 2020.
+
 ![](/assets/images/screenshot.png)
  
+---
+
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The propose of this website is to introduce the company and the main services they provide. Additionally, the user can contact the firm to hire their services or to get more information.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+To take a look at the initial wireframe, you can find it on the 'wireframes' folder on the main directory.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website has five main features:
+ - The navbar links to each section of the page.
+ - A dropdown button bellow the navbar to change the language of the page, Spanish version is yet to be implemented.
+ - On the header and footer of the website you can find the links to the social media pages of the company.
+ - In the contact section on the bottom you can see an embedded Google Maps with the location of the company office.
+ - In the contact section as well you can send a message to get in contact with the firm.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
 ### Features Left to Implement
-- Another feature idea
+- To get in contact with the company, the form needs to be finished to be fully functional.
+- A News section on top of the hero-image. Automated to post news about the advertising and communications market.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+This website was developed in HTML for markup, and CSS for style after designing the main layout with Bootstrap. 
+
+Additionally, the next technologies were used:
 
 - [Balsamiq](https://balsamiq.com/)
     - I used **Balsamiq Wireframes** to design and test the base layout of this project.
@@ -38,8 +41,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [Bootstrap](https://getbootstrap.com/)
     - I used **Bootstrap** to style layout and elements.
-
-
 
 ## Testing
 
