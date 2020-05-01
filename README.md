@@ -24,8 +24,8 @@ The website has five main features:
  - In the contact section as well you can send a message to get in contact with the firm.
  
 ### Features Left to Implement
-- To get in contact with the company, the form needs to be finished to be fully functional.
-- A News section on top of the hero-image. Automated to post news about the advertising and communications market.
+ - To get in contact with the company, the form needs to be finished to be fully functional.
+ - A News section on top of the hero-image. Automated to post news about the advertising and communications market.
 
 ## Technologies Used
 
@@ -95,13 +95,14 @@ For deployment follow this steps:
 - To [w3shools](https://www.w3schools.com/)
 - To [Stack Overflow](https://stackoverflow.com/)
 - To [Ian Luun](https://ianlunn.github.io/Hover/)
+- To [Font Awesome](https://fontawesome.com/)
 
 
 ### Content
-- The text for the services and about us sections was copied from [Estudio Sanchez & Asociados SRL](http://www.est-sanchez.com.ar/) then edited and translated for this project.
+ The text for the services and about us sections was copied from [Estudio Sanchez & Asociados SRL](http://www.est-sanchez.com.ar/) then edited and translated for this project.
 
 ### Media
-- The photos used in this site were obtained from:
+ The photos used in this site were obtained from:
 
     - https://www.shutterstock.com/
     - http://www.est-sanchez.com.ar/
@@ -113,7 +114,7 @@ For deployment follow this steps:
 
 ### Acknowledgements
 
-- I received inspiration for this project from:
+ I received inspiration for this project from:
 
     - https://www.businessaccountants.co.za/
     - http://www.est-sanchez.com.ar/
