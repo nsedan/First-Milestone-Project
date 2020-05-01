@@ -64,22 +64,31 @@ Some changes that were made compared to the initial wireframe after the first te
 - Contact details, social media links and language selector now go on top of the hero image. 
 - A new section was added, 'Why Choose Us', as requested by the client.
 
+## Contributing
+
+If you want to locally deploy this project to make contributions follow this steps:
+
+ 1. Click on the 'Clone or download' button in the code section and copy the [URL](https://github.com/nsedan/Stardust-Accountants.git)
+ 2. Go to your code editor of choice.
+ 3. Open the terminal and run 'git clone url-link'. 
+ 
+    ```sh
+    git clone https://github.com/nsedan/Stardust-Accountants.git
+    ```
+ 
+ 4. Finally go to the index.html file and erase **action** attribute on line 337 (form action="https://nsedan.github.io/First-Milestone-Project/index.html"). This is because the form at the moment is not finished.
+
+ 5. Start coding!
+
 ## Deployment
 
-This website is hosted in the GitHub Pages platform. 
+This website is hosted in the GitHub Pages platform. [Stardust Accountants](https://nsedan.github.io/Stardust-Accountants/) 
 
+For deployment follow this steps:
 
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+ 1. On GitHub, go to your site's repository.
+ 2. Click on the Settings button.
+ 3. Under 'GitHub Pages', use the Source dropdown and select the branch you want to host.
 
 ## Credits
 
@@ -89,7 +98,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ### Content
-- The text for the services and about us sections was copied from http://www.est-sanchez.com.ar/ then edited and translated for this project.
+- The text for the services and about us sections was copied from [Estudio Sanchez & Asociados SRL](http://www.est-sanchez.com.ar/) then edited and translated for this project.
 
 ### Media
 - The photos used in this site were obtained from:
