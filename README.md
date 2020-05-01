@@ -1,4 +1,4 @@
-# Stardust Accountants
+# [Stardust Accountants](https://nsedan.github.io/Stardust-Accountants/) 
 
 > Audit, Consulting, Financial Advisory and Tax services.
 
@@ -44,25 +44,32 @@ Additionally, the next technologies were used:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All user testing has been with the hosted website in the GitHub platform. The objective was to test the responsiveness of the site, mainly to check how the different devices adapt to the changes in the layout.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The devices that this site was test were:
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Samsung Galaxy S20
+- Samsung Galaxy A50
+- Iphone 8 Plus
+- Laptop ASUS S510UA, 15.6"
+- Laptop OMEN 15, 15.6"
+- Desktop PC, 27"
+- Tablet was tested with Chrome developer tools.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Tests were made at the beginning project, and aswell with the final version. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Some changes that were made compared to the initial wireframe after the first tests:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- The navbar was changed to made it a smaller, and the links now take the same row as the brand.
+- Contact details, social media links and language selector now go on top of the hero image. 
+- A new section was added, 'Why Choose Us', as requested by the client.
 
 ## Deployment
+
+This website is hosted in the GitHub Pages platform. 
+
+
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
