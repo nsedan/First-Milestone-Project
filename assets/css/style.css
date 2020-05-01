@@ -211,7 +211,7 @@ ul .collapse-nav-item:last-child{
     font-size: 1rem;
 }
 
-.contact-number-mail h6, .contact-mail-header h6{
+h6{
     display: inline;
     font-size: 1rem;
     color: #fafafa;
@@ -543,7 +543,7 @@ footer ul.list-group{
     margin-bottom: 0.5rem;
 }
 
-footer header{
+footer h3{
     color: #fafafa;
     text-shadow: 2px 2px rgb(63, 63, 63);
     margin-top: 1.5rem;
