@@ -104,19 +104,19 @@ For deployment follow this steps:
 ### Media
  The photos used in this site were obtained from:
 
-    - https://www.shutterstock.com/
-    - http://www.est-sanchez.com.ar/
-    - https://www.123rf.com/
-    - https://cdn.wallpapersafari.com/
-    - https://www.creativesnapbacks.com/
-    - https://thereceptionist.com/
+ - https://www.shutterstock.com/
+ - http://www.est-sanchez.com.ar/
+ - https://www.123rf.com/
+ - https://cdn.wallpapersafari.com/
+ - https://www.creativesnapbacks.com/
+ - https://thereceptionist.com/
 
 
 ### Acknowledgements
 
  I received inspiration for this project from:
 
-    - https://www.businessaccountants.co.za/
-    - http://www.est-sanchez.com.ar/
-    - https://www2.deloitte.com/uk/en.html
-    - https://www.estudiolutenberg.com.ar/
+ - https://www.businessaccountants.co.za/
+ - http://www.est-sanchez.com.ar/
+ - https://www2.deloitte.com/uk/en.html
+ - https://www.estudiolutenberg.com.ar/
