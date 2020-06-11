@@ -24,7 +24,6 @@ The website has five main features:
  - In the contact section as well you can send a message to get in contact with the firm.
  
 ### Features Left to Implement
- - To get in contact with the company, the form needs to be finished to be fully functional.
  - A News section on top of the hero-image. Automated to post news about the advertising and communications market.
 
 ## Technologies Used
