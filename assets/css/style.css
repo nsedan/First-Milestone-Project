@@ -641,7 +641,7 @@ footer .legal-footer, footer small{
 
 /**       ** TO TOP**       **/
 
-#myBtn {
+#toTop {
     display: none;
     position: fixed;
     bottom: 1.2rem;
@@ -656,7 +656,7 @@ footer .legal-footer, footer small{
     border-radius: 50%;
   }
   
-  #myBtn:hover {
+  #toTop:hover {
     background-color: #808080;
   }
 

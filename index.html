@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_nb8WDiHhNSdVVsdfV0pau");
+        })();
+    </script>
     <title>Stardust Accountants | Audit, Consulting, Financial Advisory and Tax services</title>
 </head>
 
@@ -335,28 +340,28 @@
             </div>
             <div class="col-12 col-md-6">
                 <header>Get in touch</header>
-                <form action="https://nsedan.github.io/Stardust-Accountants/">
+                <form id="myform" method="post">
                     <div class="form-group">
                         <label for="fname">First Name <span class="required-red">*</span></label>
-                        <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+                        <input type="text" class="form-control" id="fname" name="from_fname" placeholder="First Name" required>
                     </div>
                     <div class="form-group">
                         <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                        <input type="text" class="form-control" id="lname" name="from_lname" placeholder="Last Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email <span class="required-red">*</span></label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <input type="email" class="form-control" name="from_email" id="email" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
                     <div class="form-group">
                         <label for="mobile">Mobile</label>
-                        <input type="text" class="form-control" id="mobile" placeholder="55 5555 555555">
+                        <input type="text" class="form-control" id="mobile" name="from_mobile" placeholder="55 5555 555555">
                     </div>
                     <div class="form-group">
                         <label for="message">Message <span class="required-red">*</span></label>
-                        <textarea class="form-control" id="message" placeholder="Leave your message here."
+                        <textarea class="form-control" id="message" name="message_html" placeholder="Leave your message here."
                             maxlength="140" required></textarea>
                     </div>
                     <input type="submit" class="btn btn-secondary" value="Submit">
@@ -403,7 +408,7 @@
 
 
     <!--     -TO TOP        -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
+    <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
     <!--     -/TO TOP        -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -415,7 +420,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
