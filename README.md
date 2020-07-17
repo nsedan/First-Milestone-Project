@@ -2,7 +2,7 @@
 
 > Audit, Consulting, Financial Advisory and Tax services.
 
-This is the website of Stardust Accountants services, a real new accounting firm, specialized in Advertising and Public Relations companies. The actual site will be finished and hosted in June 2020.
+This is the website of Stardust Accountants services, a real new accounting firm, specialized in Advertising and Public Relations companies.
 
 ![](/assets/images/screenshot.png)
  
