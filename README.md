@@ -40,6 +40,9 @@ Additionally, the next technologies were used:
 
 - [Bootstrap](https://getbootstrap.com/)
     - I used **Bootstrap** to style layout and elements.
+    
+- [Email JS](https://www.emailjs.com/)
+    - I used **Email JS** API to allow the user to send an email to get in touch with the firm, directly from the contact form in the page.
 
 ## Testing
 
